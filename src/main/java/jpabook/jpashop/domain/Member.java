@@ -16,7 +16,7 @@ public class Member {
     @Column(name = "member_id")
     Long id;
 
-    private String username;
+    private String name;
     private Address address;
 
     @OneToMany(mappedBy="member")
